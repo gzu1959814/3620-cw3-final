@@ -1,0 +1,49 @@
+main 0.25 42 0.92 0.2455
+main 0.25 123 0.9415 0.2235
+main 0.25 456 1.0 0.0
+main 0.5 42 1.0 0.0
+main 0.5 123 0.9265 0.186
+main 0.5 456 1.0 0.0
+main 1.0 42 0.8825 0.194
+main 1.0 123 0.906 0.1965
+main 1.0 456 0.909 0.183
+main 1.5 42 0.9195 0.2755
+main 1.5 123 0.917 0.262
+main 1.5 456 0.921 0.2675
+main 2.0 42 0.913 0.2455
+main 2.0 123 0.921 0.259
+main 2.0 456 0.9275 0.23
+sensitivity 0.25 42 0.7815 0.0005
+sensitivity 0.25 123 0.9215 0.001
+sensitivity 0.25 456 0.9285 0.0005
+sensitivity 0.5 42 0.952 0.023
+sensitivity 0.5 123 0.9355 0.0495
+sensitivity 0.5 456 0.87 0.015
+sensitivity 1.0 42 0.9615 0.0505
+sensitivity 1.0 123 0.931 0.217
+sensitivity 1.0 456 0.9355 0.142
+sensitivity 1.5 42 0.922 0.272
+sensitivity 1.5 123 0.903 0.251
+sensitivity 1.5 456 0.925 0.2215
+sensitivity 2.0 42 0.923 0.2185
+sensitivity 2.0 123 0.9295 0.322
+sensitivity 2.0 456 0.9275 0.225
+fixed baseline seed=42, inference t=0.25: precision=0.9990 recall=0.0000
+fixed baseline seed=42, inference t=0.5: precision=0.9125 recall=0.0310
+fixed baseline seed=42, inference t=1.0: precision=0.8825 recall=0.1940
+fixed baseline seed=42, inference t=1.5: precision=0.8595 recall=0.3240
+fixed baseline seed=42, inference t=2.0: precision=0.8365 recall=0.3045
+fixed baseline seed=123, inference t=0.25: precision=0.9870 recall=0.0000
+fixed baseline seed=123, inference t=0.5: precision=0.9410 recall=0.0580
+fixed baseline seed=123, inference t=1.0: precision=0.9060 recall=0.1965
+fixed baseline seed=123, inference t=1.5: precision=0.8680 recall=0.3925
+fixed baseline seed=123, inference t=2.0: precision=0.8425 recall=0.4015
+fixed baseline seed=456, inference t=0.25: precision=1.0000 recall=0.0000
+fixed baseline seed=456, inference t=0.5: precision=0.9505 recall=0.1325
+fixed baseline seed=456, inference t=1.0: precision=0.9090 recall=0.1830
+fixed baseline seed=456, inference t=1.5: precision=0.8540 recall=0.3110
+fixed baseline seed=456, inference t=2.0: precision=0.8075 recall=0.3870
+elapsed 10.447556495666504
+MAIN [{'truncation': 0.25, 'precision_mean': 0.9538333333333333, 'precision_std': 0.04140148950621622, 'recall_mean': 0.15633333333333332, 'recall_std': 0.135834764818633}, {'truncation': 0.5, 'precision_mean': 0.9755, 'precision_std': 0.0424352447854375, 'recall_mean': 0.062, 'recall_std': 0.1073871500692704}, {'truncation': 1.0, 'precision_mean': 0.8991666666666667, 'precision_std': 0.014511489700693539, 'recall_mean': 0.19116666666666668, 'recall_std': 0.007182153808805087}, {'truncation': 1.5, 'precision_mean': 0.9191666666666667, 'precision_std': 0.0020207259421636875, 'recall_mean': 0.26833333333333337, 'recall_std': 0.006788470618138773}, {'truncation': 2.0, 'precision_mean': 0.9205, 'precision_std': 0.007262919523166955, 'recall_mean': 0.24483333333333335, 'recall_std': 0.014511489700693492}]
+SENS [{'truncation': 0.25, 'precision_mean': 0.8771666666666667, 'precision_std': 0.08292365967161203, 'recall_mean': 0.0006666666666666666, 'recall_std': 0.0002886751345948129}, {'truncation': 0.5, 'precision_mean': 0.9191666666666667, 'precision_std': 0.04337145758829569, 'recall_mean': 0.029166666666666667, 'recall_std': 0.01805777764104247}, {'truncation': 1.0, 'precision_mean': 0.9426666666666667, 'precision_std': 0.016464608508353098, 'recall_mean': 0.1365, 'recall_std': 0.08338614992910992}, {'truncation': 1.5, 'precision_mean': 0.9166666666666667, 'precision_std': 0.011930353445448865, 'recall_mean': 0.24816666666666667, 'recall_std': 0.02536894426919129}, {'truncation': 2.0, 'precision_mean': 0.9266666666666666, 'precision_std': 0.003329164059239669, 'recall_mean': 0.25516666666666665, 'recall_std': 0.05797053849442261}]
+FIXED [{'truncation': 0.25, 'precision_mean': 0.9953333333333333, 'precision_std': 0.007234178138070242, 'recall_mean': 0.0, 'recall_std': 0.0}, {'truncation': 0.5, 'precision_mean': 0.9346666666666666, 'precision_std': 0.019775826994928268, 'recall_mean': 0.07383333333333333, 'recall_std': 0.05256979487627219}, {'truncation': 1.0, 'precision_mean': 0.8991666666666667, 'precision_std': 0.014511489700693539, 'recall_mean': 0.19116666666666668, 'recall_std': 0.007182153808805087}, {'truncation': 1.5, 'precision_mean': 0.8605, 'precision_std': 0.007053367989832944, 'recall_mean': 0.3425, 'recall_std': 0.04378641341786286}, {'truncation': 2.0, 'precision_mean': 0.8288333333333333, 'precision_std': 0.01871719352182196, 'recall_mean': 0.36433333333333334, 'recall_std': 0.05232192019921798}]

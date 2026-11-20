@@ -1,0 +1,22 @@
+# Coursework documents
+COMP3620_CW3_Challenge_Statement_Template.docx
+COMP3620_CW3_Group_Project.pdf
+COMP3620_CW3_Group_Project_slides.pdf
+plan.docx
+
+# Project files
+LICENSE
+README.md
+train_samples.pkl
+
+# Directories
+experiment/
+submissions/
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
